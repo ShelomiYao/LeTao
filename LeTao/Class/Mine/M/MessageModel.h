@@ -1,0 +1,33 @@
+//
+//  MessageModel.h
+//LeTao
+//
+//  Created by ShelomiYao on 17/1/14.
+//  Copyright © 2016年 ShelomiYao. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface MessageModel : NSObject
+
+@property (nonatomic,copy) NSString *id;
+
+@property (nonatomic, assign) int  type;
+
+@property (nonatomic,copy) NSString * title;
+@property (nonatomic,copy) NSString * content;
+@property (nonatomic,copy) NSString * link;
+@property (nonatomic,copy) NSString * city;
+@property (nonatomic,copy) NSString * noticy;
+@property (nonatomic,copy) NSString * send_time;
+
+// 辅助参数
+@property (nonatomic, assign) CGFloat subTitleViewHeightNomarl;
+@property (nonatomic, assign) CGFloat cellHeight;
+@property (nonatomic, assign) CGFloat subTitleViewHeightSpread;
+
+/** <#注释#> */
+@property (nonatomic, assign) BOOL isSelected;
+
+
+@end

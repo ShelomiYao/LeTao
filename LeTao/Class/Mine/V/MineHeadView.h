@@ -1,0 +1,29 @@
+//
+//  MineHeadView.h
+//LeTao
+//
+//  Created by ShelomiYao on 17/1/12.
+//  Copyright © 2016年 ShelomiYao. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+//#import <Foundation/Foundation.h>
+
+@interface IconView : UIView
+/** 头像 */
+@property (nonatomic,weak) UIImageView *iconImageView;
+/** 电话号 */
+@property (nonatomic,weak) UILabel *phoneNum;
+
+@end
+
+@interface MineHeadView : UIImageView
+
+/** iconView */
+@property (nonatomic,weak) IconView *iconView;
+/** 设置按钮的点击回调 */
+@property (nonatomic,strong) void (^setUpButtonClickBlock)();
+/** 便利构造方法 */
+- (instancetype)initWithFrame:(CGRect)frame setUpButtonClick:(void (^)())setUpButtonClickBlock;
+@end
+
