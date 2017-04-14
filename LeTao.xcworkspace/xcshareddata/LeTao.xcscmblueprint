@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5A768CBF2EF3E3776B215E1BBE1804D6BEE49BF8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D2B19EA4F3A4367550326B774A7158EB83847B2D" : 9223372036854775807,
+    "5A768CBF2EF3E3776B215E1BBE1804D6BEE49BF8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3E55B5C9-ED81-4001-A9ED-80E813D70EC7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D2B19EA4F3A4367550326B774A7158EB83847B2D" : "..",
+    "5A768CBF2EF3E3776B215E1BBE1804D6BEE49BF8" : "LeTao\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LeTao",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LeTao.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ShelomiYao\/LeTao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A768CBF2EF3E3776B215E1BBE1804D6BEE49BF8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LYM-mg\/MGLoveFreshBeen.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D2B19EA4F3A4367550326B774A7158EB83847B2D"
+    }
+  ]
+}
