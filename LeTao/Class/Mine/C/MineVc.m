@@ -292,7 +292,7 @@ CGFloat headViewHeight = 150;
         } else { // 我的店铺
             [self.navigationController pushViewController:[[MyShopVC alloc] init] animated:YES];
         }
-    } else if (1 == indexPath.section) { // 把爱鲜蜂分享给好友
+    } else if (1 == indexPath.section) { // 把乐淘分享给好友
         [self shareToFriend];
     } else if (2 == indexPath.section) { // 客服帮助
         if (0 == indexPath.row) {
@@ -315,7 +315,7 @@ CGFloat headViewHeight = 150;
     [UMSocialData defaultData].extConfig.wechatTimelineData.url = @"http://www.jianshu.com/users/57b58a39b70e/latest_articles";
     [UMSocialData defaultData].extConfig.wechatTimelineData.title = @"赶快来关注我吧，支持我";
     
-    NSString *shareText = @"小明OC全新开源作品,高仿爱鲜蜂,希望可以前来支持“。 https://github.com/LYM-mg/MGLoveFreshBeen";             //分享内嵌文字
+    NSString *shareText = @"小明OC全新开源作品,高仿乐淘,希望可以前来支持“。 https://github.com/LYM-mg/MGLoveFreshBeen";             //分享内嵌文字
     
     //分享内嵌图片
     UIImage *shareImage = [UIImage imageNamed:@"12.png"];

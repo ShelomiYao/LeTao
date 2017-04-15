@@ -112,7 +112,7 @@
     protocloBtn.frame=CGRectMake(0, MGSCREEN_height-64-76/2, MGSCREEN_width, 76/2);
     [protocloBtn setBackgroundColor:MGNavBarTiniColor];
     [protocloBtn addTarget:self action:@selector(protocolBtnClicked:) forControlEvents:(UIControlEventTouchUpInside)];
-    [protocloBtn setTitle:@"注册即视为同意爱鲜蜂平台服务协议" forState:(UIControlStateNormal)];
+    [protocloBtn setTitle:@"注册即视为同意乐淘平台服务协议" forState:(UIControlStateNormal)];
     [protocloBtn setTitleColor:[UIColor whiteColor] forState:(UIControlStateNormal)];
     protocloBtn.titleLabel.font = MGFont(12);
     [self.view addSubview:protocloBtn];

@@ -70,7 +70,7 @@ typedef enum{
     _scrollView =[[UIScrollView alloc] initWithFrame:(CGRectMake(0, 0, MGSCREEN_width, MGSCREEN_height-64))];
     _scrollView.showsHorizontalScrollIndicator=NO;
     [self.view addSubview:_scrollView];
-    NSArray *placeholderArr = @[@"请输入你的大名~",@"我靠BUG",@"鲜蜂侠联系你的电话",@"请选择城市",@"请选择你的住宅,大厦或学校",@"请输入楼号门牌号等详细信息"];
+    NSArray *placeholderArr = @[@"请输入你的大名~",@"我靠BUG",@"乐淘侠联系你的电话",@"请选择城市",@"请选择你的住宅,大厦或学校",@"请输入楼号门牌号等详细信息"];
     NSArray *arr=@[@"姓名：",@"wokao" ,@"联系电话：",@"所在城市：", @"所在地区：",@"详细地址："];
     NSMutableArray *plString=[NSMutableArray array];
     if(self.userInfo != nil){

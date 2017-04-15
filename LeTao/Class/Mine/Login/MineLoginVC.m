@@ -70,7 +70,7 @@
         return;
     }
     
-    [MBProgressHUD showMessage:@"明哥正在帮你登录"];
+    [MBProgressHUD showMessage:@"正在登录"];
     if ([_loginTextField.text  isEqual:@"ming"] && [_pwdTextField.text  isEqual:@"234567"]) {
         [self dismissViewControllerAnimated:YES completion:^{
             [MBProgressHUD hideHUD];

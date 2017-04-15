@@ -102,7 +102,7 @@
 ],
 "ext": "可预定",
 "id": 0,
-"title": "闪送超市"
+"title": "乐淘超市"
 },
 {
 "str": [
@@ -131,7 +131,7 @@
 },
 {
 "id": 1,
-"name": "闪送超市",
+"name": "乐淘超市",
 "type": "CATEGORY",
 "jptype": 4,
 "selected": 0,

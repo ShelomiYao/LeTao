@@ -37,7 +37,7 @@
     [self addSubview:redDotImaegView];
     
     UILabel *marketTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(rocketImageView.frame) + 10, 5, MGSCREEN_width * 0.6, 20)];
-    marketTitleLabel.text = @"闪电超市";
+    marketTitleLabel.text = @"乐淘超市";
     marketTitleLabel.font = MGFont(14);
     marketTitleLabel.textColor = [UIColor lightGrayColor];
     [self addSubview:marketTitleLabel];

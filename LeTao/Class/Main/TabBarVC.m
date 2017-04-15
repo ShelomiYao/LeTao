@@ -57,11 +57,11 @@
     essenceCV.view.tag = 0;
     [self setNavOneChildViewController:essenceCV title:@"首页" image:imageArr[0] selImage:selImageArr[0]];
 
-    // 2.闪电超市
+    // 2.乐淘超市
     SuperMarketVC *newVC = [[SuperMarketVC alloc] initWithNibName:NSStringFromClass([SuperMarketVC class]) bundle:nil];
     newVC.view.tag = 1;
     newVC.view.backgroundColor = [UIColor redColor];
-    [self setNavOneChildViewController:newVC title:@"闪电超市" image:imageArr[1]
+    [self setNavOneChildViewController:newVC title:@"乐淘超市" image:imageArr[1]
                               selImage:selImageArr[1]];
     
     // 3.购物车

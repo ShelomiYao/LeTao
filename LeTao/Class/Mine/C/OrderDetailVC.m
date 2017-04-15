@@ -30,7 +30,7 @@
         _oneData = [NSMutableArray array];
         for (NSInteger i = 0; i < 7; i++)
         {
-            NSString *title = [NSString stringWithFormat:@"MG明明就是你：row=%d",i];
+            NSString *title = [NSString stringWithFormat:@"马尔泰长风：row=%ld",i];
             [_oneData addObject:title];
         }
     }
@@ -42,7 +42,7 @@
         _twoData = [NSMutableArray array];
         for (NSInteger j = 0; j < 23; j++)
         {
-            NSString *title = [NSString stringWithFormat:@"商品详情：row=%d", j];
+            NSString *title = [NSString stringWithFormat:@"商品详情：row=%ld", j];
             [_twoData addObject:title];
         }
 

@@ -50,7 +50,7 @@
     [aboutMeView addGestureRecognizer:aboutMeTap];
     
     UILabel *aboutLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, 200, subHeight)];
-    aboutLabel.text = @"关于明哥";
+    aboutLabel.text = @"关于作者";
     aboutLabel.font = MGFont(16);
     [aboutMeView addSubview:aboutLabel];
     
