@@ -256,7 +256,6 @@
     });
 }
 
-
 #pragma mark - <UISearchBarDelegate>
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar4{
     // 1.写入搜索历史
