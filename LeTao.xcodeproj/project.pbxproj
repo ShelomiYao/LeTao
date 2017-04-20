@@ -181,6 +181,8 @@
 		0481B4A21EA0C84F000F6BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481B3F01EA0C84F000F6BA4 /* main.m */; };
 		0481B4A31EA0C84F000F6BA4 /* MGGlobalConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481B3F21EA0C84F000F6BA4 /* MGGlobalConstant.m */; };
 		0481B4A41EA0C84F000F6BA4 /* MGLoveFreshBeen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0481B3F31EA0C84F000F6BA4 /* MGLoveFreshBeen.xcdatamodeld */; };
+		0498C0761EA76E8A00C7CE95 /* PYSearchExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498C0731EA76E8A00C7CE95 /* PYSearchExampleController.m */; };
+		0498C0771EA76E8A00C7CE95 /* PYTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498C0751EA76E8A00C7CE95 /* PYTempViewController.m */; };
 		3A11F1CB1D609F7500ACF3D6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A11F1CA1D609F7500ACF3D6 /* MessageUI.framework */; };
 		3A11F1CD1D609F8300ACF3D6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A11F1CC1D609F8300ACF3D6 /* JavaScriptCore.framework */; };
 		3A11F1CF1D609F9F00ACF3D6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A11F1CE1D609F9F00ACF3D6 /* AddressBook.framework */; };
@@ -514,6 +516,10 @@
 		0481B3F21EA0C84F000F6BA4 /* MGGlobalConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGGlobalConstant.m; sourceTree = "<group>"; };
 		0481B3F41EA0C84F000F6BA4 /* MGLoveFreshBeen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MGLoveFreshBeen.xcdatamodel; sourceTree = "<group>"; };
 		0481B3F51EA0C84F000F6BA4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0498C0721EA76E8A00C7CE95 /* PYSearchExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchExampleController.h; sourceTree = "<group>"; };
+		0498C0731EA76E8A00C7CE95 /* PYSearchExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchExampleController.m; sourceTree = "<group>"; };
+		0498C0741EA76E8A00C7CE95 /* PYTempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTempViewController.h; sourceTree = "<group>"; };
+		0498C0751EA76E8A00C7CE95 /* PYTempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTempViewController.m; sourceTree = "<group>"; };
 		0656BC8B4C1474D4C7D2BEF4 /* Pods-LeTao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeTao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeTao/Pods-LeTao.debug.xcconfig"; sourceTree = "<group>"; };
 		3A11F1CA1D609F7500ACF3D6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3A11F1CC1D609F8300ACF3D6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -639,6 +645,10 @@
 		0481B2911EA0C84E000F6BA4 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				0498C0721EA76E8A00C7CE95 /* PYSearchExampleController.h */,
+				0498C0731EA76E8A00C7CE95 /* PYSearchExampleController.m */,
+				0498C0741EA76E8A00C7CE95 /* PYTempViewController.h */,
+				0498C0751EA76E8A00C7CE95 /* PYTempViewController.m */,
 				0481B2921EA0C84E000F6BA4 /* HomeSearchVC.h */,
 				0481B2931EA0C84E000F6BA4 /* HomeSearchVC.m */,
 				0481B2941EA0C84E000F6BA4 /* HomeVC.h */,
@@ -1475,7 +1485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		190CD1022DB2B30CCA789819 /* [CP] Embed Pods Frameworks */ = {
@@ -1520,6 +1530,7 @@
 				0481B49A1EA0C84F000F6BA4 /* ThrowLineTool.m in Sources */,
 				0481B3FD1EA0C84F000F6BA4 /* HomeWebVC.m in Sources */,
 				0481B4911EA0C84F000F6BA4 /* SuperMarketModel.m in Sources */,
+				0498C0771EA76E8A00C7CE95 /* PYTempViewController.m in Sources */,
 				0481B4131EA0C84F000F6BA4 /* IdeaVC.m in Sources */,
 				0481B4161EA0C84F000F6BA4 /* MyAddressVC.m in Sources */,
 				0481B4A41EA0C84F000F6BA4 /* MGLoveFreshBeen.xcdatamodeld in Sources */,
@@ -1560,6 +1571,7 @@
 				0481B43D1EA0C84F000F6BA4 /* ViewController+MASAdditions.m in Sources */,
 				0481B3FB1EA0C84F000F6BA4 /* HomeSearchVC.m in Sources */,
 				0481B4841EA0C84F000F6BA4 /* UserShopCarTool.m in Sources */,
+				0498C0761EA76E8A00C7CE95 /* PYSearchExampleController.m in Sources */,
 				0481B41E1EA0C84F000F6BA4 /* MGTextField.m in Sources */,
 				0481B4391EA0C84F000F6BA4 /* MASViewConstraint.m in Sources */,
 				0481B49D1EA0C84F000F6BA4 /* LYMSaveTool.m in Sources */,

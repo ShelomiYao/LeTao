@@ -19,6 +19,7 @@
 #import "UIBarButtonItem+Extension.h"
 #import "QRCodeVC.h"
 #import "HomeSearchVC.h"
+#import "PYSearchExampleController.h"
 
 @interface HomeVC ()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,CAAnimationDelegate>
 {
@@ -109,7 +110,7 @@ static NSString *const KHomeFooterIdentifier = @"Footer";
  *  搜索功能
  */
 - (void)searchClick{
-    [self.navigationController pushViewController:[[HomeSearchVC alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[PYSearchExampleController alloc] init] animated:YES];
 }
 
 #pragma mark - HomeHeaderView

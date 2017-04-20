@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PYSearch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-LeTao.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0809D11B8CB51E2971E3AFDF205A7FE9</key>
+		<key>6DF28B4A7C3AD00B3923C9D658881A7E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7A3F221431FE8AC68073D9E9891640CB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>88EB909BBE890E7F274E7774EC5FDD17</key>
+		<key>785BBD5B252E988F288CA612E0DA5E34</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEC501539C23241EF49CA7143A46414C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B98E86E33CCA0A9AE2C5773807F7CDCB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
